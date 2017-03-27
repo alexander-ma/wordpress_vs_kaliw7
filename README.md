@@ -11,7 +11,7 @@ Time spent: 10 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: <img src='http://imgur.com/a/5Oy7m.png' title='Video Walkthrough 1' width='' alt='Video Walkthrough 1' />
+  - [ ] GIF Walkthrough: <img src='http://imgur.com/UHJt0p2.png' title='Video Walkthrough 1' width='' alt='Video Walkthrough 1' />
   - [ ] Steps to recreate: Code was entered into a new post using the HTML edit mode.
         ```
         <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
