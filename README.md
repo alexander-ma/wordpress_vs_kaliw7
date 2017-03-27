@@ -11,7 +11,7 @@ Time spent: 10 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: <blockquote class="imgur-embed-pub" lang="en" data-id="a/5Oy7m"><a href="//imgur.com/5Oy7m"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+  - [ ] GIF Walkthrough: <img src='http://imgur.com/a/5Oy7m.png' title='Video Walkthrough 1' width='' alt='Video Walkthrough 1' />
   - [ ] Steps to recreate: Code was entered into a new post using the HTML edit mode.
         ```
         <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
@@ -23,7 +23,7 @@ Time spent: 10 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.5
-  - [ ] GIF Walkthrough:
+  - [ ] GIF Walkthrough: <img src='http://imgur.com/a/5Vjy3.gif' title='Video Walkthrough 2' width='' alt='Video Walkthrough 2' />
   - [ ] Steps to recreate: The following was added to a post's content and created an XSS pop up when on mouse over:
         ```
         TEST!!!<figure style="width: 1px;" class="wp-caption alignnone"><figcaption class="wp-caption-text"><a href="</figcaption></figure></a><a href="http://onMouseOver='alert(1)'">Click me</a></p>"
@@ -35,7 +35,7 @@ Time spent: 10 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough:
+  - [ ] GIF Walkthrough: <img src='http://imgur.com/a/b6LsO.gif' title='Video Walkthrough 3' width='' alt='Video Walkthrough 3' />
   - [ ] Steps to recreate: Creating a new post with the following youtube link creates an XSS message:
         ```
         https://youtube[.]com/watch?v=abc<svg onload=alert(1)>"
