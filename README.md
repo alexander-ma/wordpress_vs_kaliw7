@@ -11,7 +11,7 @@ Time spent: 10 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough:
+  - [ ] GIF Walkthrough: <blockquote class="imgur-embed-pub" lang="en" data-id="a/5Oy7m"><a href="//imgur.com/5Oy7m"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
   - [ ] Steps to recreate: Code was entered into a new post using the HTML edit mode.
         ```
         <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
